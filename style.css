@@ -21,10 +21,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     box-shadow: 1px 1px 10px 1px black;
     height: 100vh;
     width: 80%;
-    background-image: url("Images/img9.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: background 3s ; 
 }
 button{
     background-color: #eee;
@@ -51,11 +47,8 @@ button:hover{
     margin-top: 100px;
     width: 70%;
     font-size: large;
-    background-color: black;
-    opacity: 60%;
     padding: 15PX;
-    color: white;
-    font-family: cursive,  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: cursive,"Snell Roundhand", "Trattatello","Bradley Hand",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }   
 
 .name{
@@ -63,10 +56,7 @@ button:hover{
     text-align: center;
     font-style: italic;
     font-size: larger;
-    background-color: black;
-    opacity: 60%;
     padding: 15PX;
-    color: white;
 }
 #sBtn{
     margin-top: 70px;

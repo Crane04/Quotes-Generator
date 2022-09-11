@@ -5,14 +5,7 @@ const container=document.querySelector(".container")
 const inputEl=document.querySelector("input")
 
 
-let x=setInterval(() => {
-    let imageIndex=Math.floor(Math.random()*30+1)
-    container.style.background=`url("Images/img${imageIndex}.jpg")`
-    container.style.backgroundRepeat="no-repeat"
-    container.style.backgroundSize="cover"
-    container.style.transition="background 3s"
-    
-}, 4000);
+
 
 button.addEventListener("click",function(){
     let goIndex=Math.floor(Math.random()*1643)
